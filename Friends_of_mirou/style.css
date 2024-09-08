@@ -1,0 +1,204 @@
+
+body {
+            background-color: beige;
+          }
+
+          /* Pour les tablettes */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  section {
+    margin: 10px 0;
+  }
+
+  #minou {
+    max-width: 80%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Pour les smartphones */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    position: static;
+    width: auto;
+  }
+
+  #chat {
+    font-size: 24px;
+  }
+
+  #minou {
+    max-width: 100%;
+  }
+
+  #spakspak {
+    font-size: 24px;
+  }
+
+  textarea, input[type="text"] {
+    width: 100%;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+
+          #spakspak {
+            font-size: 30px;
+          }
+
+          #kk {
+            font-weight: bold;
+            font-size: large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+
+          #fom {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;  /* Largeur fixe */
+            height: auto;  /* Hauteur automatique pour maintenir les proportions */
+          }
+
+          #section1 {
+            background-color: #b1e8fe;
+          }
+          #section2 {
+            background-color: azure;
+          }
+          #section3 {
+            background-color: #f7ffecdb;
+          }
+          footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+          }
+          main {
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 0.5rem;
+          }
+          
+          #chat {
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.646);
+            padding: 1rem;
+          }
+          
+          #mmm {
+            text-align: center;
+            color: #477a00db;
+            background-color: rgba(255, 169, 169, 0.397);
+            padding: 2rem ;
+            
+          }
+
+          #minou {
+            display: block;
+            margin: auto;
+            max-width: 90%;
+            height: auto;
+            border-radius: 30px 0 30px 0;
+            border: 1px solid #ccc;
+            transition: transform 0.3s ease;
+            /* transform: scale(1.05); */
+          }
+          
+          nav ul {
+            list-style-type: none;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #d4b3e2a1;
+            border-radius: 60px 0 60px 0;
+            display: block;
+            padding: 0.5rem;
+            width: 98%;
+            top: 1;
+            z-index: 1000;
+            justify-content: space-around;
+        }
+
+        p {
+          padding: 20px
+        }
+
+        .lafin {
+          margin: 0 0px 0 0px;
+          padding: 0 0px 0 0px;
+          max-width: 80%;
+          height: auto;
+
+        }
+ 
+  img:hover {
+    /* Transformation au survol */
+    transform: scale(1.1); /* Rotation de 5 degrés */
+  }
+
+  .container {
+    display: flex; /* Utiliser flexbox pour l'affichage en ligne */
+    justify-content: space-around; /* Espacer les sections uniformément */
+}
+
+section {
+    flex: 1; /* Permettre aux sections de prendre une largeur égale */
+    margin: 1px; /* Ajouter une marge entre les sections */
+}
+
+.st {
+  color: #e8491d;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgba(155, 203, 77, 0.292);
+  margin: 20px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  border-radius: 50px 0 50px;
+  border: 10px 10px 10px 10px red;
+  border: 1px solid black;
+}
+
+#lafin {
+  
+  background-color: rgba(244, 175, 90, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px 0 50px;
+}
+
+.lafin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
