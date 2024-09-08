@@ -228,3 +228,16 @@ section {
   transition: transform 0.3s ease;
 
 }
+
+#lafin p:hover {
+  font-weight: bold;
+  font-size: xxx-large;
+  max-width: 150px;
+  height: auto;
+  color: black;
+
+}
+
+.sitett {
+  font-size: x-large;
+}
