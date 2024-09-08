@@ -175,18 +175,6 @@ section {
     margin: 1px; /* Ajouter une marge entre les sections */
 }
 
-.st {
-  color: #e8491d;
-  font-weight: bold;
-  font-size: 30px;
-  background-color: rgba(155, 203, 77, 0.292);
-  margin: 20px;
-  padding: 5px 0px 5px 0px;
-  text-align: center;
-  border-radius: 50px 0 50px;
-  border: 10px 10px 10px 10px red;
-  border: 1px solid black;
-}
 
 #lafin {
   
@@ -202,4 +190,41 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* 
+  #minou {
+    display: block;
+
+    margin: auto;
+
+    max-width: 90%;
+
+    height: auto;
+
+    transition: transform 0.3s ease;
+} */ 
+
+#lafin p {
+  display: block;
+
+  color: #e8491d;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgba(155, 203, 77, 0.292);
+  text-align: center;
+
+  max-width: 90px;
+  height: auto;
+
+  margin: auto;
+
+
+  padding: 2rem;
+
+  border: 2px solid black;
+  border-radius: 30px 60px 0 60px;
+
+  transition: transform 0.3s ease;
+
 }
