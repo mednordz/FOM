@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Friends of Mirou</title>
+
+        <style>
+
+          body {
+            background-color: beige;
+          }
+
+          /* Pour les tablettes */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  section {
+    margin: 10px 0;
+  }
+
+  #minou {
+    max-width: 80%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Pour les smartphones */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    position: static;
+    width: auto;
+  }
+
+  #chat {
+    font-size: 24px;
+  }
+
+  #minou {
+    max-width: 100%;
+  }
+
+  #spakspak {
+    font-size: 24px;
+  }
+
+  textarea, input[type="text"] {
+    width: 100%;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+
+          #spakspak {
+            font-size: 30px;
+          }
+
+          #kk {
+            font-weight: bold;
+            font-size: large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+
+          #fom {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;  /* Largeur fixe */
+            height: auto;  /* Hauteur automatique pour maintenir les proportions */
+          }
+
+          #section1 {
+            background-color: #b1e8fe;
+          }
+          #section2 {
+            background-color: azure;
+          }
+          #section3 {
+            background-color: #f7ffecdb;
+          }
+          footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+          }
+          main {
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 0.5rem;
+          }
+          
+          #chat {
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.646);
+            padding: 1rem;
+          }
+          
+          #mmm {
+            text-align: center;
+            color: #477a00db;
+            background-color: rgba(255, 169, 169, 0.397);
+            padding: 2rem ;
+            
+          }
+
+          #minou {
+            display: block;
+            margin: auto;
+            max-width: 90%;
+            height: auto;
+            border-radius: 30px 0 30px 0;
+            border: 1px solid #ccc;
+            transition: transform 0.3s ease;
+            /* transform: scale(1.05); */
+          }
+          
+          nav ul {
+            list-style-type: none;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #d4b3e2a1;
+            border-radius: 60px 0 60px 0;
+            display: block;
+            padding: 0.5rem;
+            width: 98%;
+            top: 1;
+            z-index: 1000;
+            justify-content: space-around;
+        }
+
+        p {
+          padding: 20px
+        }
+
+        .lafin {
+          margin: 0 0px 0 0px;
+          padding: 0 0px 0 0px;
+          max-width: 80%;
+          height: auto;
+
+        }
+ 
+  img:hover {
+    /* Transformation au survol */
+    transform: scale(1.1); /* Rotation de 5 degrés */
+  }
+
+  .container {
+    display: flex; /* Utiliser flexbox pour l'affichage en ligne */
+    justify-content: space-around; /* Espacer les sections uniformément */
+}
+
+section {
+    flex: 1; /* Permettre aux sections de prendre une largeur égale */
+    margin: 1px; /* Ajouter une marge entre les sections */
+}
+
+.st {
+  color: #e8491d;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgba(155, 203, 77, 0.292);
+  margin: 20px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  border-radius: 50px 0 50px;
+  border: 10px 10px 10px 10px red;
+  border: 1px solid black;
+}
+
+#lafin {
+  
+  background-color: rgba(244, 175, 90, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px 0 50px;
+}
+
+.lafin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+          
+        </style>
+    </head>
+
+    <body>
+      <header> 
+        <nav>
+            <ul>
+                <li id="kk"><a href="#section1">Mirou</a></li>
+                <li id="kk"><a href="#section3">ZATAR</a></li>
+                <li id="kk"><a href="#section2">MIMIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+      <div>
+        <main>
+          <h1>Nos Mchamech / Les Minouches</h1>
+        </main>
+      </div>
+    
+      <div class="container" style="background-color: rgb(255, 253, 230);">
+       <section id="section1">
+                                <!--ICI ON PARLE DE MIROU-->
+        <h2 id="chat"> Mirou </h2> 
+       <p style="text-align: justify;font-size: 20px;">Mirou est un chat au pelage soyeux, d'un gris argenté parsemé de quelques taches blanches. Ses yeux, d'un vert émeraude profond, brillent d'une lueur espiègle qui trahit son caractère joueur. De taille moyenne, il a une silhouette élégante et agile, toujours prête à bondir sur un jouet ou à grimper aux rideaux.
+        Son museau rose est orné de longues moustaches blanches qui frémissent à chaque mouvement. Ses oreilles, toujours aux aguets, pivotent au moindre bruit, captant les sons les plus infimes de son environnement. Sa queue, longue et touffue, se balance gracieusement lorsqu'il marche, telle une plume au gré du vent.
+        Mirou est un chat affectueux qui aime se blottir sur les genoux de son maître, ronronnant doucement pour exprimer son contentement. Cependant, il garde une certaine indépendance et n'hésite pas à partir explorer le jardin, à la recherche d'aventures félines.</p>
+       <a href="http://www.google.com"><img id="minou" src="image1.JPG" alt="photo de mirou"></a>
+       <br><br>
+       </section>
+
+       <section id="section2">
+        <h2 id="chat"> MIMIA </h2>
+       <p style="text-align: justify;font-size: 20px;">Mimia est une chatte ravissante au pelage bicolore. Son corps est principalement blanc, avec des taches grises élégantes sur la tête et le dos, lui donnant un motif unique et charmant. Sa fourrure semble douce et bien soignée.
+        Mimia a une tête ronde typique des chats domestiques, avec de grands yeux expressifs d'une couleur ambrée ou dorée qui fixent directement l'objectif. Son regard transmet une impression de curiosité et d'intelligence.
+        Ses oreilles de taille moyenne à grande sont dressées et alertes, lui donnant un air vif et attentif. On peut voir ses longues moustaches blanches qui ajoutent à son charme félin.
+        Mimia est assise sur ce qui semble être une étagère ou un rebord en bois, dans une posture légèrement accroupie. Ses pattes avant sont repliées sous elle, suggérant qu'elle est à l'aise mais prête à bouger si quelque chose attire son attention.
+        Le corps de Mimia paraît svelte et bien proportionné, indiquant qu'elle est probablement jeune et en bonne santé.
+        L'expression de son visage et sa posture donnent l'impression que Mimia est alerte, curieuse et peut-être un peu méfiante ou prudente face à l'appareil photo.
+        Le contraste entre le pelage clair de Mimia et l'arrière-plan coloré (le mur carrelé bleu et vert) la met particulièrement en valeur, créant une image très esthétique.</p>
+       <img id="minou" src="image2.JPG">
+       <br><br>
+       </section>
+
+       <section id="section3">
+        <h2 id="chat"> TOUTOU </h2>
+       <p style="text-align: justify;font-size: 20px;">Toura est un magnifique chat blanc, élégant et svelte. Son pelage immaculé brille sous la lumière, contrastant avec le décor coloré qui l'entoure.
+        Dans cette photo, Toura se tient debout sur ses pattes arrière, étirant son corps gracieux vers le haut. Ses pattes avant sont levées, comme s'il tentait d'atteindre quelque chose au-dessus de lui - peut-être une feuille ou un insecte qui a attiré son attention. Cette posture montre sa curiosité et son agilité naturelle.
+        Les yeux de Toura, bien qu'on ne puisse pas clairement en distinguer la couleur, semblent fixés sur un point d'intérêt hors champ. Ses oreilles pointues sont dressées, attestant de sa vigilance.
+        Toura se trouve sur ce qui semble être un rebord ou une surface surélevée, recouverte d'un tissu clair. Derrière lui, on aperçoit un mur décoré de carreaux aux motifs géométriques complexes, typiques de l'art islamique ou marocain. Au-dessus, une abondante végétation verte apporte une touche naturelle à la scène.</p>
+       <img id="minou" src="image3.JPG">
+       <br><br>
+       </section>
+    </div>
+                                                 <!-- 2éme partie -->
+    
+    <h1 id="mmm">واش يديرو القطوطة <br> !!!</h1>
+    <img id="fom" src="fom.gif"  alt="Friends-of-Mirou">
+    
+    <dev class="container">
+    <h3>To HAM HAM list :</h3>
+    <ol>
+      <li>houta banina</li>
+      <li>djoudja tayba mlih</li>
+      <li>Lhima w makarouna</li>
+    </ol>
+    <ul>
+      <li><button><strong>courgette</strong></button></li><br>
+      <li><button><strong>Yaourte NATURE</strong></button></li><br>
+      <li><button><strong>Khbiza</strong></button></li><br>
+    </ul>
+
+    </dev>
+
+    <p>Ceci est un <span id="spakspak">texte en gras</span> utilisant span.</p>
+
+    <p>Ceci est un <strong>texte important</strong> utilisant strong.</p>
+
+    <a href="#section3"> liens vers toura</a><br><br>
+    
+       <script>
+        // Sélectionner toutes les images
+        const images = document.querySelectorAll('img');
+        
+        // Ajouter les écouteurs d'événements à chaque image
+        images.forEach(image => {
+          image.addEventListener('mouseover', () => {
+            // Appliquer une classe pour déclencher l'animation CSS au survol
+            image.classList.add('hovered');
+          });
+        
+          image.addEventListener('mouseout', () => {
+            // Retirer la classe pour revenir à l'état initial
+            image.classList.remove('hovered');
+          });
+        });
+        </script>
+        <div class="container">
+          <section id="01">
+          <form>
+           <textarea cols="40" rows="5" placeholder="li 3andou hadra ykhaliha fi 9albou"></textarea> </form>
+          </section>
+<br>
+          <section id="02">
+            <form>
+          <input type="checkbox" value="velo">Vélo <br>
+          <input type="checkbox" value="moto">Moto<br>
+          <input type= "checkbox" value="voitue" checked>Voiture
+             </form>
+          </section>
+<br>
+          <section id="03">
+            <form>
+              <input type="radio" value="Monsieur" name="sexe"> Monsieur
+              <input type="radio" value="Madame" name="sexe"> Madames
+            </form>
+
+          </section>
+<br>
+          <section id="04">
+            <form>
+              <select name="voiture">
+                <option value="fiat500">fiat 500</option>
+                <option value="golf6">golf 6</option>
+                <option value="Toyota land-cruser">Toyota land-cruser</option>
+              </select>
+            </form>
+          </section>
+<br>
+          <section id="05">
+            <form>
+              <input type="submit" value="Valider">
+            </form>
+          </section>
+        </div>
+
+
+    </body>
+    
+    
+    <section id="lafin"> 
+      <p class="st"> strlink </p>
+      <img class="lafin" src="lafin.gif" alt="la fin">
+    </section id="lafin">
+
+    <footer>
+      <form>
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" placeholder="votre nome">
+        <label for="prénom">Prénom:</label>
+        <input type="text" lastname="prénom" placeholder="ektab la9bek yaw">
+      </form>
+      <p>9itat amila, Copyright &copy; 2024</p>
+  </footer>
+</html>  
