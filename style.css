@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'Didouche';
+  src: url('https://github.com/mednordz/mednordzsov/raw/cf9a9e914e414636740d21765cf7cc4079fa4b23/fonts/Didouche_Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
-            background-color: rgb(235, 242, 202);
-            /* c'est la couleur du fond */
-          }
+  font-family: 'Didouche', sans-serif;
+  background-color: rgb(235, 242, 202);
+}
+
 
           /* Pour les tablettes */
 @media screen and (max-width: 768px) {
